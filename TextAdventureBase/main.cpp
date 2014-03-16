@@ -34,7 +34,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	Mike->gear->equipArmor(armor2);
 	
 	Mage* enemy = new Mage("Boar", 1, 0, 1000, 1000, 10, 10, 10, 10, 10, 10);
-	Skill* ski = new Skill("Raging Penis", "THRUST WITH POWER", ski->ICE, ski->FREEZE, 10, 2.0394);
+	Skill* ski = new Skill("Raging Thrust", "THRUST WITH POWER", ski->ICE, ski->FREEZE, 10, 2.0394);
 	
 	Mike->attack(enemy, ski);
 
